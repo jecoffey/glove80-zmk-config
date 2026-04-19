@@ -109,7 +109,7 @@ left_HRM: left_HRM {
             bindings
                 = <&out OUT_BLE>,
                   <&bt BT_SEL 3>;
-
+        };
 
         ctrl_x: ctrl_x {
             compatible = "zmk,behavior-macro";
