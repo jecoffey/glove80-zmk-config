@@ -210,7 +210,7 @@ magic: magic {
             bindings = <&mo>, <&rgb_ug_status_macro>;
         };
 
-        magic: magic_hold_tap {
+        magic_hold_tap: magic_hold_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "MAGIC_HOLD_TAP";
             #binding-cells = <2>;
